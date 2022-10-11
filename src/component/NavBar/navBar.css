@@ -1,0 +1,19 @@
+.NavBar {
+  display: flex;
+  width: 96%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.coinNav {
+  display: flex;
+  align-items: center;
+}
+
+.nameNav {
+  color: rgba(255, 55, 0, 0.961);
+}
+
+.navLink {
+  text-decoration: none;
+}
