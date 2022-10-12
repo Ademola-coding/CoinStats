@@ -3,8 +3,8 @@ import { Provider } from 'react-redux';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import NavBar from '../component/NavBar/NavBar';
 import CryptoContainer from '../component/MainPage/CryptoContainer';
-import CoinDetails from '../component/CoinInfo/CoinDetails'
-import { store } from '../Redux/store'
+import CoinDetails from '../component/CoinInfo/CoinDetails';
+import { store } from '../Redux/store';
 
 describe('Testing for all components', () => {
   it('Testing for the CryptoContainer Components', () => {
