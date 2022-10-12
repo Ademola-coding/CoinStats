@@ -1,0 +1,167 @@
+body {
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.9)),
+    url(../../Assets/background.jpg);
+}
+
+.hero {
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.9)),
+      url(../../Assets/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  box-shadow: 30px 10px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  margin: auto;
+}
+
+.heroDetails {
+  padding: 20px 0;
+  width: 80%;
+  margin: auto;
+}
+
+.cardsContain {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.conisCard {
+  transition: all ease-in-out 0.45s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 240px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.conisCard:hover {
+  transform: scale(1.05);
+}
+
+.searchInput {
+  display: flex;
+  justify-content: center;
+  padding: 0 0 30px 0;
+}
+
+.inputSearchBox {
+  transition: all ease-in-out 0.45s;
+  width: 50%;
+  border-radius: 30px;
+  padding: 15px;
+  box-shadow: 1px 1px 1px rgba(249, 249, 249, 0.25);
+  outline: none;
+}
+
+.coinIcons {
+  display: flex;
+  color: gold;
+  font-size: 40px;
+  width: 85%;
+  margin: auto;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.conisCard img {
+  width: 70px;
+}
+
+.coinIcon {
+  width: 10%;
+}
+
+.coinDetails {
+  width: 60%;
+  text-align: center;
+}
+
+.arrowForward {
+  width: 20px;
+}
+
+.enterIcon {
+  text-decoration: none;
+  transition: all ease-in-out 0.45s;
+  font-size: 25px;
+}
+
+.enterIcon:hover {
+  transform: scale(1.5);
+}
+
+span {
+  display: block;
+  position: absolute;
+  top: calc(50% - 2px);
+  left: 50%;
+  width: 50%;
+  height: 4px;
+  background: transparent;
+  transform-origin: left;
+  animation: animate 2s linear infinite;
+}
+
+@media (max-width: 750px) {
+  body {
+    background-color: white;
+  }
+
+  .hero {
+    color: white;
+    width: 80%;
+    margin: auto;
+  }
+
+  .cardsContain {
+    width: 97%;
+    margin: auto;
+  }
+
+  .conisCard {
+    background-color: white;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+  }
+
+  .coinRank {
+    display: none;
+  }
+}
+
+@media (max-width: 450px) {
+  .cardsContain {
+    display: flex;
+    overflow: hidden;
+    gap: 2px;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .conisCard {
+    background-color: white;
+    width: 37%;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+
+  .conisCard img {
+    width: 35px;
+  }
+
+  .coinSymbol {
+    font-size: 15px;
+  }
+}

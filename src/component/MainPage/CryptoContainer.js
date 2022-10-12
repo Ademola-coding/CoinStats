@@ -3,9 +3,7 @@ import CryptoCoins from './CryptoCards';
 
 function CryptoContainer() {
   return (
-    <div className="cryptoCardsContainers">
-      <CryptoCoins />
-    </div>
+    <div className="cryptoCardsContainers"><CryptoCoins /></div> 
   );
 }
 

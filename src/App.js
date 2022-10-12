@@ -1,8 +1,8 @@
 /* eslint-disable */
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import CoinDetails from './component/Details/CoinDetails';
-import CryptoContainer from './component/Home/CryptoContainer';
+import CoinDetails from './component/CoinInfo/CoinDetails';
+import CryptoContainer from './component/MainPage/CryptoContainer';
 import NavBar from './component/NavBar/NavBar';
 
 function App() {
