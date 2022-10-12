@@ -2,10 +2,6 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.coinDtailsContainer {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
 .coinHeader {
   display: flex;
   justify-content: space-between;
