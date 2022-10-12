@@ -5,13 +5,14 @@
   justify-content: space-between;
 }
 
-.coinNav {
+.cryptoNav {
   display: flex;
   align-items: center;
+  gap: 20px;
 }
 
 .nameNav {
-  color: rgba(255, 55, 0, 0.961);
+  color: gold;
 }
 
 .navLink {
