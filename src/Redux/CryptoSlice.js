@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
 const baseURL = 'https://api.coinstats.app/public/v1/coins';
@@ -18,8 +19,7 @@ export const crytopSlice = createSlice({
     [fetchCryptos.fulfilled]: (state, { payload }) => ({
       ...state, status: 'idle', crypto: payload,
     }),
-    [fetchCryptos.pending]: ((state) => ({
-      ...state, status: 'pending', })),
+    [fetchCryptos.pending]: ((state) => ({ ...state, status: 'pending' })),
   },
 });
 
