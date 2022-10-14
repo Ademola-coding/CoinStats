@@ -1,60 +1,47 @@
-# CoinStats
-This is a Crypto educative webapp where users can search for coins and get information on it. it is built with React.
-
-
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Coin-stat
 
-> Description the project.
+> Description the project
 
+This is a Crypto educative webapp where users can search for coins and get information they need on it. it is built with React.
+
+[A video description](https://www.loom.com/share/d0dda22683a84c0eac3977a94fc38af3)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Major languages : JavaScript
+- Frameworks React
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
+[kindly view](https://stunning-alpaca-fefdd2.netlify.app/)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+you can have a copy of this project by cloning this repo to your local machine
+`https://github.com/Ademola-coding/CoinStats.git`
 
+## procedure
+- open git bash
+- git mkdir Coin-stat
+- cd Coin-stat
+- git clone `https://github.com/Ademola-coding/CoinStats.git` `
+- code .
 
-To get a local copy up and running follow these simple example steps.
+## Install
+ 
+ - `npm i`
+ - `npm install react-redux
+ 
+ 
+with the steps above, you can have a copy of the project 
 
-### Prerequisites
+## Author
 
-### Setup
+👤 **Author**
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/Ademola-coding)
 
 ## 🤝 Contributing
 
