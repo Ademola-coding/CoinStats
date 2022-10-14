@@ -22,28 +22,21 @@ const payload = [
 ];
 
 describe('Testing AsyncThunk functions', () => {
-  const initialState = {
-    crypto: [],
-    status: 'idle',
-  };
+  const initialState = { crypto: [], status: 'idle',};
 
-  const pendingState = {
-    type: fetchCryptos.pending,
-  };
+  const pendingState = { type: fetchCryptos.pending, };
 
   const fulfilledState = { type: fetchCryptos.fulfilled, payload };
 
   it('Test for pending state', () => {
     expect(Reducer(initialState, pendingState)).toEqual({
-      crypto: [],
-      status: 'pending',
+      crypto: [], status: 'pending',
     });
   });
 
   it('Testing the fulfil state of Async call', () => {
     expect(Reducer(initialState, { fulfilledState })).toEqual({
-      crypto: [],
-      status: 'idle',
+      crypto: [], status: 'idle',
     });
   });
 });
