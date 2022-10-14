@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Coin-stat
+# Coin-stats
 
 > Description the project
 
