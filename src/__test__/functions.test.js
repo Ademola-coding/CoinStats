@@ -22,9 +22,9 @@ const payload = [
 ];
 
 describe('Testing AsyncThunk functions', () => {
-  const initialState = { crypto: [], status: 'idle',};
+  const initialState = { crypto: [], status: 'idle' };
 
-  const pendingState = { type: fetchCryptos.pending, };
+  const pendingState = { type: fetchCryptos.pending };
 
   const fulfilledState = { type: fetchCryptos.fulfilled, payload };
 
