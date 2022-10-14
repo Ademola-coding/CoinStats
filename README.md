@@ -41,7 +41,8 @@ with the steps above, you can have a copy of the project
 
 👤 **Author**
 
-- GitHub: [@githubhandle](https://github.com/Ademola-coding)
+Ademola Owoeye
+- GitHub: [Ademola Owoeye](https://github.com/Ademola-coding)
 
 ## 🤝 Contributing
 
