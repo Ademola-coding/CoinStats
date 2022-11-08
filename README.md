@@ -4,9 +4,11 @@
 
 > Description the project
 
-This is a Crypto educative webapp where users can search for coins and get information they need on it. it is built with React.
+This is a Crypto educative webapp where users can search for coins and get information they need on it. it is built with React and Redux.
 
-[A video description](https://www.loom.com/share/d0dda22683a84c0eac3977a94fc38af3)
+## Video Description
+
+[Click for video](https://www.loom.com/share/d0dda22683a84c0eac3977a94fc38af3)
 
 ## Built With
 
@@ -34,6 +36,15 @@ you can have a copy of this project by cloning this repo to your local machine
  - `npm i`
  - `npm install react-redux
  
+ ## Run
+ - `npm start`
+
+## Prerequisites
+
+- **Web Browser**
+- Internet Service. 
+- Basic Knowledge about Git and Github.
+- VSCode.
  
 with the steps above, you can have a copy of the project 
 
@@ -58,10 +69,7 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to anyone whose code was used
 - Inspiration
-- etc
 
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
