@@ -8,9 +8,9 @@ This is a Crypto educative webapp where users can search for coins and get infor
 
 ![React App 11-8-2022 1-17-35 AM](https://user-images.githubusercontent.com/96092850/200443151-a16267b5-603a-4180-9e88-286f61212fbf.png)
 
-## Video Description
+<-- ## Video Description
 
-[Click for video](https://www.loom.com/share/d0dda22683a84c0eac3977a94fc38af3)
+[Click for video](https://www.loom.com/share/d0dda22683a84c0eac3977a94fc38af3) -->
 
 ## Built With
 
